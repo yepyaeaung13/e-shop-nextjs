@@ -23,11 +23,11 @@ const Products = () => {
   }, []);
   return (
     <Container>
-      <div className="grid grid-cols-7 gap-2 my-5">
-        <div className="md:col-span-1 col-span-2 selection:rounded-md bg-gray-100 h-[100vh] p-2">
+      <div className="grid md:grid-cols-7 grid-cols-1 gap-2 md:my-5 my-1">
+        <div className="md:col-span-1 selection:rounded-md bg-gray-100 md:h-[100vh] p-2">
           <FilterItems updateFilterProducts={updateFilterProducts} />
         </div>
-        <div className="md:col-span-6 col-span-5">
+        <div className="md:col-span-6">
           <h1 className="text-md font-bold font-serif">Products</h1>
           <div className="flex justify-between text-sm">
             <div>
@@ -114,7 +114,7 @@ const Products = () => {
                         {products.rating.rate}
                       </span>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="flex md:flex-row flex-col items-center justify-between">
                       <span className="text-sm font-bold text-gray-900 dark:text-white">
                         {"$" + products.price}
                       </span>
@@ -122,7 +122,7 @@ const Products = () => {
                         onClick={() => {
                           addCartItems(products);
                         }}
-                        className="rounded-md bg-primary px-3 py-1 text-center text-xs font-medium text-white focus:outline-none hover:bg-[#262b3d]"
+                        className="rounded-md bg-primary md:px-3 px-1 py-1 text-center text-xs font-medium text-white focus:outline-none hover:bg-[#262b3d]"
                       >
                         Add to cart
                       </button>

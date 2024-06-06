@@ -93,7 +93,7 @@ const NewProductSection = () => {
                     onClick={() => {
                       addCartItems(products);
                     }}
-                    className="rounded-md bg-primary px-3 py-1 text-center text-xs font-medium text-white focus:outline-none hover:bg-[#262b3d]"
+                    className="rounded-md bg-primary md:px-3 px-1 py-1 text-center text-xs font-medium text-white focus:outline-none hover:bg-[#262b3d]"
                   >
                     add to cart
                   </button>

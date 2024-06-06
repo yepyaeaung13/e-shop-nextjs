@@ -38,7 +38,7 @@ const FilterItems = ({ updateFilterProducts }) => {
       </div>
       {/* categories  */}
       <div
-        className={`p-2 text-sm flex flex-col gap-2 ${
+        className={`p-2 text-sm flex md:flex-col flex-row flex-wrap gap-2 ${
           isOpen === false ? "hidden" : ""
         }`}
       >
