@@ -21,9 +21,12 @@ const TopNavbar = () => {
             fill="white"
           />
         </svg>
-        <p className="">
-          Yankin, Yangon, Myanmar <span className="px-[1.5vw]">|</span> +95 989
-          862 6060
+        <p className="flex md:flex-row flex-col">
+          <span>Yankin, Yangon, Myanmar</span>
+          <span className="">
+            {" "}
+            <span className="px-2">|</span>+95 989 862 6060
+          </span>
         </p>
       </div>
       <div className="flex gap-5 items-center">

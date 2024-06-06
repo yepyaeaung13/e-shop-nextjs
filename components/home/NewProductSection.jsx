@@ -11,10 +11,10 @@ const NewProductSection = () => {
   const { addCartItems } = useContext(allProductsContext);
   return (
     <Container>
-      <div className="my-3 font-bold md:mx-14 mx-10">
+      <div className="my-3 font-bold md:mx-14 mx-2">
         <h2>New Products</h2>
       </div>
-      <div className="grid md:grid-cols-5 grid-cols-2 gap-2 md:mx-14 mx-10 mb-10">
+      <div className="grid md:grid-cols-5 grid-cols-2 gap-2 md:mx-14 mx-2 mb-10">
         {newProducts.map((products) => {
           return (
             <Card

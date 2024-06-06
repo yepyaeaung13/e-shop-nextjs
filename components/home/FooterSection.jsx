@@ -7,7 +7,7 @@ const FooterSection = () => {
   const { categories } = useContext(categoryContext);
   return (
     <Container>
-      <div className="grid grid-cols-7 gap-2 my-3 mx-3 justify-center border-t border-gray-400 py-[2vh]">
+      <div className="grid grid-cols-7 md:gap-2 gap-1 my-3 justify-center border-t border-gray-400 py-[2vh]">
         <div className="md:col-span-3 col-span-1">
           <h1 className="font-bold font-serif">e-shop</h1>
         </div>

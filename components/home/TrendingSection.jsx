@@ -22,7 +22,7 @@ const TrendingSection = () => {
                 Special Items
               </h1>
             </div>
-            <div className="flex flex-col h-[400px] w-full md:w-96 justify-center border border-primary gap-5 rounded-md p-5">
+            <div className="flex flex-col h-96 md:w-96 w-80 border justify-center border-primary gap-5 rounded-md">
               <div className="flex flex-col justify-start items-center">
                 <h1 className="text-2xl text-primary font-bold font-serif">
                   Special
@@ -32,7 +32,7 @@ const TrendingSection = () => {
                 </h1>
                 <Link
                   href="/products"
-                  className="px-2 py-1 text-[1vw] bg-primary text-white rounded-md mt-2"
+                  className="px-2 py-1 text-sm bg-primary text-white rounded-md mt-2"
                 >
                   shop now
                 </Link>
