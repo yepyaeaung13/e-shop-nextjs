@@ -59,7 +59,7 @@ const TrendingSection = () => {
                 return (
                   <div
                     key={item.id}
-                    className={`flex items-center gap-10 border mx-2 md:p-5 px-5 py-2 rounded-md border-primary`}
+                    className={`flex items-center md:gap-10 gap-3 border md:p-5 px-2 py-2 rounded-md border-primary`}
                   >
                     <span
                       className={`${
@@ -78,7 +78,9 @@ const TrendingSection = () => {
                       className="w-16 h-16 object-cover"
                     />
                     <div className="flex flex-col gap-2 justify-center">
-                      <h1 className="text-md font-bold">{item.title}</h1>
+                      <h1 className="text-sm line-clamp-1 font-bold">
+                        {item.title}
+                      </h1>
                       <p className="text-xs line-clamp-2">{item.description}</p>
                       <span className="text-sm font-bold">$ {item.price}</span>
                     </div>

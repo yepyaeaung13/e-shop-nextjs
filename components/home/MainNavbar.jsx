@@ -80,7 +80,7 @@ const MainNavbar = () => {
               </svg>
             </button>
             <nav
-              className={`absolute top-8 px-2 py-2 rounded-sm right-0 flex flex-col bg-primary w-80 ${
+              className={`absolute top-8 px-2 py-2 rounded-sm right-0 flex flex-col bg-primary md:w-80 w-40 ${
                 hide ? "hidden" : ""
               }`}
             >
